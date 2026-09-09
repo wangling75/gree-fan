@@ -1,6 +1,6 @@
 {
     "domain": "gree_fan",
-    "name": "Gree Fan (XFan)",
+    "name": "格力风扇",
     "codeowners": ["@yourname"],
     "config_flow": true,
     "version": "0.4.1",
