@@ -1,10 +1,19 @@
 {
   "domain": "gree_fan",
   "name": "格力风扇",
-  "documentation": "https://github.com/wangling75/gree-fan",
-  "dependencies": [],
-  "codeowners": ["@user"],
+  "codeowners": ["@wangling75"],
   "config_flow": true,
-  "iot_class": "cloud_polling",
+  "dependencies": [
+    "network"
+  ],
+  "documentation": "https://github.com/wangling75/gree-fan",
+  "iot_class": "local_polling",
+  "loggers": [
+    "greeclimate",
+    "gree_fan"
+  ],
+  "requirements": [
+    "greeclimate==2.1.4"
+  ],
   "version": "1.0.0"
 }
