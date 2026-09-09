@@ -3,7 +3,7 @@
     "name": "Gree Fan (XFan)",
     "codeowners": ["@yourname"],
     "config_flow": true,
-    "version": "0.4.2",
+    "version": "0.4.1",
     "dependencies": ["network"],
     "documentation": "",
     "iot_class": "local_polling",
